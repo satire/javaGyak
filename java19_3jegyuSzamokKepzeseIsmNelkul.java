@@ -16,11 +16,11 @@ public class java19_3jegyuSzamokKepzeseIsmNelkul {
 			for(int j=2; j<=4; j++){ // A 10-esek helyiértékét lépteti, rendre 2,3 vagy 4
 				for (int k=2; k<=4; k++){ // A 1-esek helyiértékét lépteti, rendre 2,3 vagy 4
 					System.out.print(""+i+j+k+", ");// A számjegyeket most karakterként kell kiíratni.
-					összesLepes++;
+					osszesLepes++;
 				}
 			}
 		}		
-		System.out.println("\nÖsszes lépés: " + összesLepes);
+		System.out.println("\nÖsszes lépés: " + osszesLepes);
 		System.out.println();
 		System.out.println("A program írja ki a 2, 3, 4 számjegyekből ismétlés nélkül képezhető összes 3 jegyű számot."); 
 		
@@ -41,7 +41,7 @@ public class java19_3jegyuSzamokKepzeseIsmNelkul {
 			}
 		}
 		// A ciklusok lépésszáma nem változik, csak az eredményeket szűrjük meg.
-		System.out.println("\nÖsszes lépés: " + összesLepes);		
+		System.out.println("\nÖsszes lépés: " + osszesLepes);		
 		
 	}
 
