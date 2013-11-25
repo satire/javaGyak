@@ -1,4 +1,3 @@
-
 public class java19_3jegyuSzamokKepzeseIsmNelkul {
 
 	public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class java19_3jegyuSzamokKepzeseIsmNelkul {
 		// Ismétléses variáció: 3^3 = 27 a lehetséges három jegyű számok száma.
 		// mindegyik ciklus önmagában 3-szor futna le, de mindhárom alkalommal lefuttatja a beágyazott ciklusokat is.
 		
-		int összesLepes = 0;
+		int osszesLepes = 0;
 		
 		for(int i=2; i<=4; i++){ // A 100-asok helyiértékét lépteti, rendre 2,3 vagy 4
 			for(int j=2; j<=4; j++){ // A 10-esek helyiértékét lépteti, rendre 2,3 vagy 4
@@ -25,7 +24,7 @@ public class java19_3jegyuSzamokKepzeseIsmNelkul {
 		System.out.println();
 		System.out.println("A program írja ki a 2, 3, 4 számjegyekből ismétlés nélkül képezhető összes 3 jegyű számot."); 
 		
-		összesLepes = 0;
+		osszesLepes = 0;
 		
 		// Ismétlés nélküli variáció: 3!/(3-3)!
 		for(int i=2; i<=4; i++){
@@ -37,7 +36,7 @@ public class java19_3jegyuSzamokKepzeseIsmNelkul {
 					if(i!=j && j!=k && i!=k){ 
 						System.out.print(""+i+j+k+", ");						
 					}
-					összesLepes++;
+					osszesLepes++;
 				}
 			}
 		}
