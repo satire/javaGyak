@@ -17,6 +17,7 @@ public class java10_MathOsztaly {
 		"\nsin(Pi/4) = "+Math.sin(Math.PI/4)+
 		"\nnégyzetgyök(2)/2 = "+Math.sqrt(2)/2+	
 		// Mindig csak 2 számmal működik!
+		// De egymásba lehet ágyazni őket pl. Math.max(Math.max(10,15), Math.max(10,21)); => 21
 		"\n12 és 40.5 közül a nagyobb: " + Math.max(12,40.5)+
 		"\n1 és -4.5 közül a kisebb: " + Math.min (1, -4.5) +		
 		"\n5,6-hez legközelebbi egész: "+Math.round(5.6)+

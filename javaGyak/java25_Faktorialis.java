@@ -6,7 +6,7 @@ public class java25_Faktorialis {
 
 	public static void main(String[] args) {
 		
-		//Az összegzés tétele
+		// Az összegzés tétele
 		// N elemű sorozat elemeinek összege, szorzata.
 		
 		System.out.println("n! kiszámítása");

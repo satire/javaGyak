@@ -6,7 +6,7 @@ public class java24_ElsoNSzamOsszege {
 
 	public static void main(String[] args) {
 		
-		//Az összegzés tétele
+		// Az összegzés tétele
 		// N elemű sorozat elemeinek összege, szorzata.
 		
 		System.out.println("Kérek egy pozitív egész számot!");
