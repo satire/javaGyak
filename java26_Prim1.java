@@ -21,7 +21,7 @@ public class java26_Prim1 {
 			prim = false;
 		}else{
 			int i = 2;
-			//HA 'i' kisebb vagy egyenlő mint a 'szam' gyöke és nem osztója a 'szamnak'
+			//HA 'i' kisebb vagy egyenlő mint a 'szam' gyöke és nem osztója a 'szam'-nak
 			//AKKOR lép tovább a ciklus 'i'-t növelve eggyel.
 			while(i<=Math.sqrt(szam) && szam%i!=0){
 				i++;
