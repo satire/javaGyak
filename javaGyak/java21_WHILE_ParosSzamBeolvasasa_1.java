@@ -12,7 +12,7 @@ public class java21_WHILE_ParosSzamBeolvasasa_1 {
 		int szam;
 		
 		// A 'while' feltételében a kiértékelendő kifejezés változóját beolvastatjuk, addíg amíg a kifejezés igaz.
-		// Ez elég szép és rövid, bár nem biztos hogy más nyelvek is megengedik
+		// Ez elég szép és rövid, de nem lehet benne hibát kezelni
 		while ((szam = inputScanner.nextInt())%2 !=0) { 
 			System.out.println("Nem páros. Újra!");	
 		}
