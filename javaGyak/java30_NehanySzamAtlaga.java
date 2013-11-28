@@ -25,7 +25,7 @@ public class java30_NehanySzamAtlaga {
 		if (db>0){ // Ne osszunk 0-val
 			System.out.println("A megadott számok átlaga: " + (double)osszeg/db);
 		}else{
-			System.out.println("A megadott számoknak nincs átlaga!");
+			System.out.println("Nem adtál meg számokat!");
 		}
 		
 	}
