@@ -94,19 +94,17 @@ public class javaLottoSQLite {
 						}catch (Exception e) {
 							System.err.println(e.getClass().getName() + ": "+ e.getMessage());
 							break;
-						}finally{
-							br.close();
 						}
 					} else {						
 						break;
 					}
 				}				
-
+				br.close();
 			}catch (Exception e) {
 				System.err.println("connect(): " + e.getClass().getName()+ ": " + e.getMessage());
-			}finally{
-				stmt.close();
 			}
+			stmt.close();
+		
 		}catch (Exception e) {
 			System.err.println("connect(): " + e.getClass().getName() + ": "+ e.getMessage());
 			System.exit(0);
